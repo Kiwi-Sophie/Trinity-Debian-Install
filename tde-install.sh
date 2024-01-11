@@ -161,5 +161,6 @@ echo 'Abbruch mit STRG + C'
 sleep 5
 
 # Neustart (damit alle Paketänderungen aktiv werden)
-rm /etc/network/interfaces
+mkdir network-backup
+mv /etc/network/interfaces network-backup/interfaces
 reboot
