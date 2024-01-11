@@ -11,7 +11,7 @@ Leider bietet der Debian Installer keine Möglichkeit an, den Trinitydesktop zu 
  4. Flatpak und Discover
  5. *Properitär* Multimedia-Codecs und Kaffeine
 
-## BedienungIm Nachfolgenden wird nach einem Firefox Profil gefragt.
+## Bedienung
 ``chmod +x tde-install.sh``
 Einfach das Skript als root ausführen und das Skript führt Euch durch die Installation. Sollte zum Beispiel nur die Installation von Trinity gewünscht sein, so kann man das Skript nach Installation des Desktops durch Drücken von `` STRG + C `` abgebrochen werden. Das Skript pausiert nach jedem Vorgang für 5 Sekunden und zeigt die Option des Abbruchs auch an.
 
