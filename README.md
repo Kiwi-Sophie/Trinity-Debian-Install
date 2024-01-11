@@ -23,7 +23,8 @@ Der Debian Installer speichert standardmäßig die für die Installation verwend
 Ein Skript um Firefox mit [Arkenfox](https://github.com/arkenfox/user.js/) sicherer zu gestalten und um mit [Leptons Firefox UI Fix](https://github.com/black7375/Firefox-UI-Fix/) den Firefox optisch zu verbessern.
 
 ## Bedienung
-``chmod +x firefox.sh
-./firefox.sh``
+``chmod +x firefox.sh``
+
+``./firefox.sh``
 Anschließend das Design auswählen, Lepton ist ähnlich wie Chromium basierende Browser, Proton ist der aktuelle Firefox Look und Photon ist der vorherige Look vom Firefox.
 Danach das Profil mit der Leertaste auswählen, bei Debian ist es standardmäßig das Profil mit ``.default-esr`` am Ende, und mit Eingabetaste bestätigen.
