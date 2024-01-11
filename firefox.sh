@@ -28,7 +28,7 @@ sleep 7
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/black7375/Firefox-UI-Fix/master/install.sh)"
 git clone https://github.com/arkenfox/user.js.git -b master arkenfox
-echo arkenfox/user.js >> ~/.mozilla/firefox/*.default-esr/user.js
+cat arkenfox/user.js >> ~/.mozilla/firefox/*.default-esr/user.js
 rm -rf arkenfox/
 
 clear
