@@ -70,6 +70,8 @@ sleep 7
 apt install nala -y
 
 echo 'deb https://debian.mirror.iphh.net/debian/ bookworm main contrib non-free non-free-firmware' > /etc/apt/sources.list.d/nala-sources.list
+echo 'deb http://deb.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware' >> /etc/apt/sources.list.d/nala-sources.list
+echo 'deb https://debian.mirror.iphh.net/debian/ bookworm-updates main contrib non-free non-free-firmware' >> /etc/apt/sources.list.d/nala-sources.list
 
 
 # TDE-Paketquellen (Rolling-Release) eintragen
